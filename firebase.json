@@ -5,6 +5,12 @@
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
+    ],
+    "redirects": [ {
+        "source": "/go/:url*",
+        "destination": "https://jmkim.page.link/:url",
+        "type": 302
+      }
     ]
   }
 }
