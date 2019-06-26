@@ -10,6 +10,10 @@
         "source": "/go/:url*",
         "destination": "https://jmkim.page.link/:url",
         "type": 302
+      }, {
+        "source": "/keys/pubkey.D39D8D29BAF36DF8.Jongmin_Kim.asc",
+        "destination": "https://keyring.debian.org/pks/lookup?op=get&search=0xD39D8D29BAF36DF8",
+        "type": 301
       }
     ]
   }
