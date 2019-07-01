@@ -1,0 +1,13 @@
+language: node_js
+
+node_js:
+  - "node"
+
+script:
+  -
+
+deploy:
+  provider: firebase
+  project: jongmin-dev
+  token:
+    secure: "$FIREBASE_TOKEN"
