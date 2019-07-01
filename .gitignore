@@ -1,5 +1,5 @@
-# Created by https://www.gitignore.io/api/vim,node,firebase
-# Edit at https://www.gitignore.io/?templates=vim,node,firebase
+# Created by https://www.gitignore.io/api/vim,node,jekyll,firebase
+# Edit at https://www.gitignore.io/?templates=vim,node,jekyll,firebase
 
 ### Firebase ###
 .idea
@@ -10,6 +10,12 @@ firebase-debug.log*
 ### Firebase Patch ###
 .runtimeconfig.json
 .firebase/
+
+### Jekyll ###
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
 
 ### Node ###
 # Logs

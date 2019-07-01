@@ -4,10 +4,12 @@ node_js:
   - "node"
 
 script:
-  -
+  - bundle install
+  - jekyll build
 
 deploy:
   provider: firebase
   project: jongmin-dev
+  skip_cleanup: true
   token:
     secure: "$FIREBASE_TOKEN"

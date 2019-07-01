@@ -1,0 +1,21 @@
+source:               blog
+destination:          public
+
+# Site info
+title:                'jongmin.dev'
+tagline:              'Jongmin Kim'
+description:          'Jongmin Kim <jmkim@pukyong.ac.kr>'
+url:                  https://jongmin.dev/
+baseurl:              ''
+paginate:             5
+paginate_path:        'page:num'
+
+# About/contact
+author:
+  name:               'Jongmin Kim'
+  url:                https://jongmin.dev/
+  email:              'jmkim@pukyong.ac.kr'
+
+# Site settings
+permalink:            pretty
+plugins:              [jekyll-paginate]
